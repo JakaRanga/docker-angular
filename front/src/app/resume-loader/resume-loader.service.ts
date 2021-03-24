@@ -1,15 +1,11 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { environment } from 'src/environments/environment';
 
 export interface ResumeData {
 
-  name: string,
-  title: string,
-  catchphrase: string,
-  birthdate: string,
-  nationality: string,
-  localisation: string,
+  profile: Profile,
   contacts: Contact[],
   experiences: Experience[],
   educations: Education[],
@@ -77,7 +73,7 @@ export class ResumeLoaderService {
   constructor(private http: HttpClient) { }
 
   public getResumeInformation(): Observable<ResumeData> {
-    return this.http.get<ResumeData>('https://localhost:44355/profile');
+    return this.http.get<ResumeData>(`${environment.apiUrl}/profile`);
   }
 
   public storeResumeInformations(resumeData: ResumeData): void {

@@ -2,18 +2,17 @@ version: '3.7'
 
 services:
 
-  example:
+  front-dev:
 
-    container_name: example
+    container_name: front-dev
 
     build:
       context: .
       dockerfile: Dockerfile
       
     volumes:
-
       - '.:/app'
       - '/app/node_modules'
 
     ports:
-      - '4224:4200'
+      - '4200:4200'

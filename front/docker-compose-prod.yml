@@ -2,10 +2,13 @@ version: '3.7'
 
 services:
 
-  example-prod:
-    container_name: example-prod
+  front-prod:
+
+    container_name: front-prod
+
     build:
       context: .
       dockerfile: Dockerfile-prod
+
     ports:
-      - '80:80'
+      - '4201:80'
