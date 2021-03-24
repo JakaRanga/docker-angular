@@ -1,0 +1,22 @@
+<div class="ro-cp-skills">
+
+    <ng-container *ngFor="let skill of skills">
+
+        <div class="ro-flex-row ro-align-center ro-flex-fill ro-cp-skill">
+
+            <div class="ro-cp-skill-circle ro-cp-skill-{{ skill.knowledge }} ro-flex-column ro-justify-center ro-align-center">
+                <div class="ro-cp-knowledge-text">
+                    {{ skill.knowledge }}%
+                </div>
+            </div>
+
+            <div class="ro-margin-left-sm ro-cp-skill-name">
+                {{ skill.name }}
+            </div>
+
+
+        </div>
+
+    </ng-container>
+
+</div>

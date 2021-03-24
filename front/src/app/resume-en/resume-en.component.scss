@@ -1,0 +1,75 @@
+.ro-cp-resume-container {
+    width: 80vw;
+    margin: 1.5625vw auto;
+}
+
+.rp-cp-title-container {
+    width: 75vw;
+}
+
+.ro-cp-picture-container {
+    width: 18vw;
+}
+
+.ro-cp-resume-pic {
+    border-radius: 50%;
+    width: 16vw;
+    height: 16vw;
+}
+
+label {
+    font-weight: bold;
+    font-size: 1.3vw;
+}
+
+.ro-cp-resume-title {
+    .title {
+        font-size: 4vw;
+        font-weight: bold;
+        color: var(--ro-text-secondary);
+    }
+
+    .subtitle {
+        font-size: 1.5vw;
+        font-weight: bold;
+        color: var(--ro-text-primary);
+    }
+}
+
+.ro-cp-download-btn {
+    fa-icon {
+        font-size: 2.3vw;
+    }
+
+    @media print {
+        display: none;
+    }
+}
+
+.ro-cp-left-panel {
+    width: 18vw;
+
+    .ro-cp-details {
+        margin-top: 1.3125vw;
+
+        .ro-cp-details-label {
+            color: var(--ro-text-secondary);
+            font-weight: bold;
+        }
+    }
+
+    .ro-cp-contacts {
+        margin-top: 1.3125vw;
+
+        .ro-cp-contacts-label {
+            color: var(--ro-text-secondary);
+            font-weight: bold;
+        }
+    }
+}
+
+.ro-cp-right-panel {
+    margin-left: 1.0416vw;
+}
+
+  

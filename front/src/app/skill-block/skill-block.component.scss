@@ -1,0 +1,42 @@
+.ro-cp-skills {
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.ro-cp-skill {
+    width: 32%;
+    margin-bottom: .3125vw;
+}
+
+.ro-cp-skill-circle {
+    border: .5vw solid var(--ro-primary);
+    border-radius: 50%;
+    width: 3vw;
+    height: 3vw;
+    transform: rotate(45deg);
+}
+
+.ro-cp-knowledge-text {
+    transform: rotate(-45deg);
+}
+
+.ro-cp-skill-25 {
+    border-left-color: var(--ro-light-primary);
+    border-bottom-color: var(--ro-light-primary);
+    border-right-color: var(--ro-light-primary);
+}
+
+.ro-cp-skill-50 {
+    border-left-color: var(--ro-light-primary);
+    border-bottom-color: var(--ro-light-primary);
+}
+
+.ro-cp-skill-75 {
+    border-left-color: var(--ro-light-primary);
+}
+
+.ro-cp-skill-name {
+    white-space: pre-wrap;
+}

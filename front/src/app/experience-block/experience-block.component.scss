@@ -1,0 +1,28 @@
+.ro-cp-experience {
+ 
+    .ro-cp-experience-line {
+        width: 2px;
+        height: 100%;
+        background-color: var(--ro-border-color);
+    }
+
+    &:last-child {
+        .ro-cp-experience-line {
+            width: 0px;
+        }
+    }
+}
+
+label {
+    font-weight: bold;
+}
+
+.ro-cp-title-label {
+    color: var(--ro-text-secondary);
+    font-size: 1.3vw;
+}
+
+.ro-cp-subtitle-label {
+    font-size: 1vw;
+    text-transform: uppercase;
+}

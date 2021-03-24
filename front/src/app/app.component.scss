@@ -1,0 +1,23 @@
+.ro-cp-toolbar {
+    max-height: 4vh;
+    align-items: center;
+
+    img {
+        max-width: 14vw;
+    }
+
+    a:hover {
+        cursor: pointer;
+    }
+}
+
+.ro-cp-main-container {
+    height: 100vh;
+}
+
+.ro-cp-main-resume-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

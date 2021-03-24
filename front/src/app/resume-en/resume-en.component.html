@@ -1,0 +1,117 @@
+<div class="ro-cp-resume-container ro-padding-xxxl ro-slide-in-fwd-center">
+
+    <ng-container *ngIf="resumeData">
+
+        <div class="ro-flex-row ro-align-center rp-cp-title-container">
+
+            <div class="ro-cp-picture-container">
+                <img src="../../assets/jeremy-bouton.jpg" class="ro-cp-resume-pic ro-margin-right-xl">
+            </div>
+
+            <div class="ro-cp-resume-title ro-flex-fill">
+                <div class="title">
+                    {{ resumeData.profile.name }}
+                </div>
+
+                <div class="subtitle">
+                    {{ resumeData.profile.title }}
+                </div>
+            </div>
+
+            <div class="ro-cp-download-btn">
+                <a (click)="printAsPdf('resume-en')">
+
+                    <fa-icon [icon]="faDownload" class="ro-text-secondary"></fa-icon>
+
+                </a>
+            </div>
+
+        </div>
+
+        <div class="ro-flex-row ro-margin-top-xl">
+
+            <div class="ro-cp-left-panel ro-margin-right-xl ">
+
+                <div>
+                    <label>PROFILE</label>
+                    <div>{{ resumeData.profile.catchphrase }}</div>
+                </div>
+
+                <div class="ro-cp-details ro-flex-column">
+                    <label>PERSONAL DETAILS</label>
+
+                    <label class="ro-cp-details-label ro-margin-top-sm">Birth Date</label>
+                    <div>{{ resumeData.profile.birthdate }}</div>
+
+                    <label class="ro-cp-details-label ro-margin-top-sm">Nationality</label>
+                    <div>{{ resumeData.profile.nationality }}</div>
+
+                    <label class="ro-cp-details-label ro-margin-top-sm">Localization</label>
+                    <div>{{ resumeData.profile.localisation }}</div>
+                </div>
+
+                <div class="ro-cp-contacts ro-flex-column">
+                    <label>CONTACT</label>
+
+                    <div class="ro-flex-column" *ngFor="let contact of resumeData.contacts">
+                        <label class="ro-cp-contacts-label ro-margin-top-sm">{{ contact.name }}</label>
+                        <div>{{ contact.value }}</div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="ro-cp-right-panel ro-flex-fill">
+
+                <div class="ro-cp-resume-block">
+
+                    <label>PROFESSIONAL EXPERIENCE</label>
+
+                    <div class="ro-flex-column ro-flex-fill">
+
+                        <ro-experience-block [experiences]="resumeData.experiences"></ro-experience-block>
+
+                    </div>
+                </div>
+
+                <div class="ro-cp-resume-block ro-margin-top-xl">
+
+                    <label>EDUCATION</label>
+
+                    <div class="ro-flex-column ro-flex-fill">
+
+                        <ro-experience-block [experiences]="resumeData.educations"></ro-experience-block>
+
+                    </div>
+                </div>
+
+                <div class="ro-cp-resume-block ro-margin-top-xl">
+
+                    <label>SKILLS</label>
+
+                    <div class="ro-flex-column ro-flex-fill">
+
+                        <ro-skill-block [skills]="resumeData.skills"></ro-skill-block>
+
+                    </div>
+                </div>
+
+                <div class="ro-cp-resume-block ro-margin-top-xl">
+
+                    <label>LANGUAGES</label>
+
+                    <div class="ro-flex-column ro-flex-fill">
+
+                        <ro-language-block [languages]="resumeData.languages"></ro-language-block>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </ng-container>
+
+</div>

@@ -1,0 +1,21 @@
+<ng-container *ngFor="let language of languages">
+
+    <div class="ro-cp-language ro-flex-row ro-margin-bottom ro-margin-top ro-align-center">
+
+        <div class="ro-cp-language-level" *ngFor="let count of counter; let i = index">
+
+            <div *ngIf="i <= language.level - 1" class="ro-margin-right-sm ro-cp-language-full">
+            </div>
+
+            <div *ngIf="i > language.level - 1" class="ro-margin-right-sm ro-cp-language-empty">
+            </div>
+
+        </div>
+
+        <div>
+            {{ language.type }}
+        </div>
+
+    </div>
+
+</ng-container>

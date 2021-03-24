@@ -1,0 +1,16 @@
+.ro-cp-language {
+    .ro-cp-language-box {
+        width: 3vw;
+        height: .35vw;
+    }
+
+    .ro-cp-language-full {
+        @extend .ro-cp-language-box;
+        background-color: var(--ro-primary);
+    }
+
+    .ro-cp-language-empty {
+        @extend .ro-cp-language-box;
+        background-color: var(--ro-light-primary);
+    }
+}

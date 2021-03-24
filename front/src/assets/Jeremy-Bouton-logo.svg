@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="9430" height="1321" viewBox="0 0 9430 1321">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 1270px;
+        fill: #010101;
+        font-family: Poppins;
+      }
+
+      .cls-2 {
+        fill: #db1755;
+      }
+
+      .cls-3 {
+        fill: #0b7af3;
+      }
+    </style>
+  </defs>
+  <text id="Jérémy_Bouton" data-name="Jérémy Bouton" class="cls-1" x="-52" y="993">Jérémy<tspan class="cls-2"> <tspan class="cls-3">Bouton</tspan></tspan></text>
+</svg>

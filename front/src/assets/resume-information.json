@@ -1,0 +1,103 @@
+{
+    "profile": {
+        "name": "Jérémy BOUTON",
+        "title": "Web / Software Developer - Student at Epitech",
+        "catchphrase": "In 5th and last year at EPITECH - Computer programming school",
+        "birthdate": "24 January 1998",
+        "nationality": "French",
+        "localisation": "Metz - France"
+    },
+    "contacts": [
+        {
+            "name": "Email",
+            "value": "jeremy.bouton@epitech.eu"
+        },
+        {
+            "name": "Phone",
+            "value": "+33 7 50 23 53 54"
+        },
+        {
+            "name": "LinkedIn",
+            "value": "/in/jeremybouton"
+        }
+    ],
+    "experiences": [
+        {
+            "title": "Software developer - Internship",
+            "subtitle": "nestlé waters vosges",
+            "description": "Software development (C# / Winforms / WPF)\nDatabase management\n(Entity Framework, SQL Server Management Studio, Transact-SQL)",
+            "date": "jul 2017 - dec 2017"
+        },
+        {
+            "title": "Web / API / Software developer - Internship",
+            "subtitle": "öhman bank s.a luxembourg",
+            "description": "Web application development (Angular 5 / 6 / 7)\nAPI REST (C# ASP.NET)\nDesktop application development (WPF)\nDatabase management\n(Entity Framework, SQL Sever Management Studio, Transact-SQL)",
+            "date": "jul 2018 - mars 2019"
+        },
+        {
+            "title": "Software architect - Internship",
+            "subtitle": "öhman bank s.a luxembourg",
+            "description": "Web application development (Angular 7 / 8)\nAPI REST (C# ASP.NET)\nDesktop application development (WPF)\nDatabase management\n(Entity Framework Core, SQL Sever Management Studio, Transact-SQL)",
+            "date": "apr 2019 - dec 2019"
+        },
+        {
+            "title": "Software developer - Internship",
+            "subtitle": "kyu solutions luxembourg",
+            "description": "Web application development (ASP.NET Razor)\nWeb API (.Net Core - AKKA.Net)\nDatabase management (SQL Sever Management Studio, Transact-SQL)",
+            "date": "sep 2020 - mar 2020"
+        }
+    ],
+    "educations": [
+        {
+            "title": "Baccalauréat - Scientific section",
+            "subtitle": "lycée jean-baptiste vuillaume - Mirecourt France",
+            "date": "2013 - 2016"
+        },
+        {
+            "title": "Master in computer science",
+            "subtitle": "Epitech - nancy france",
+            "date": "2016 - 2021"
+        },
+        {
+            "title": "International student",
+            "subtitle": "Californian state university san marcos - USA",
+            "date": "2019 - 2020"
+        }
+    ],
+    "skills": [
+        {
+            "name": "C#",
+            "knowledge": 100
+        },
+        {
+            "name": "Angular",
+            "knowledge": 100
+        },
+        {
+            "name": "SQL",
+            "knowledge": 100
+        },
+        {
+            "name": "Git",
+            "knowledge": 100
+        },
+        {
+            "name": "C++ / C",
+            "knowledge": 50
+        },
+        {
+            "name": "React / React Native",
+            "knowledge": 50
+        }
+    ],
+    "languages": [
+        {
+            "type": "French",
+            "level": 4
+        },
+        {
+            "type": "English",
+            "level": 3
+        }
+    ]
+}

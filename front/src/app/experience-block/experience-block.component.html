@@ -1,0 +1,29 @@
+<ng-container *ngFor="let experience of experiences">
+
+    <div class="ro-flex-row ro-cp-experience">
+
+        <div class="ro-flex-column ro-align-center ro-margin-right ro-margin-top-sm">
+            <fa-icon [icon]="faCircle" class="ro-text-secondary"></fa-icon>
+
+            <div class="ro-cp-experience-line"></div>
+        </div>
+
+        <div class="ro-flex-10 ro-flex-column ro-margin-bottom">
+            <label class="ro-cp-title-label">{{ experience.title }}</label>
+
+            <label class="ro-cp-subtitle-label">{{ experience.subtitle }}</label>
+
+            <div>{{ experience.description }}</div>
+
+        </div>
+
+        <div class="ro-flex-fill">
+
+            <label>{{ experience.date }}</label>
+
+        </div>
+
+    </div>
+
+
+</ng-container>
